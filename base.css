@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  /* Overlay layers */
+  --z-overlay: 400;
+  --z-spotlight: 1000;
+  --z-critical: 2000;
+  /* spacing */
+  --spacing-1: 0.25rem; --spacing-2: 0.5rem; --spacing-3: 0.75rem; --spacing-4: 1rem;
+   10	  --spacing-6: 1.5rem; --spacing-8: 2rem; --spacing-12: 3rem; --spacing-16: 4rem; --spacing-20: 5rem;
+   11	}
+   12	
+   13	:root {
+   14	  --background:#f4f8ff; --foreground:#14223d;
+   15	  --surface:#edf3ff; --surface-foreground:#14223d; --sidebar:#eef4ff; --sidebar-foreground:#14223d;
+   16	  --card:rgba(255,255,255,.74); --card-foreground:#14223d; --popup:#ffffff; --popup-foreground:#14223d;
+   17	  --primary:#7058ec; --primary-foreground:#ffffff; --secondary:#e8eefb; --secondary-foreground:#42516d;
+   18	  --accent:#43cbe6; --accent-foreground:#0d2740; --muted:#e9eef7; --muted-foreground:#697790;
+   19	  --success:#38b994; --success-foreground:#ffffff; --error:#e56b86; --error-foreground:#ffffff;
+   20	  --warning:#d69a42; --warning-foreground:#ffffff; --info:#4c8cff; --info-foreground:#ffffff;
+   21	  --info-hover:#3e78e8; --info-active:#345fc0; --border:rgba(46,67,105,.12);
+   22	  --font-family-base:'Manrope',ui-sans-serif,system-ui,sans-serif;
+   23	  --font-family-display:'DM Serif Display',Georgia,serif;
+   24	  --font-family-monospace:ui-monospace,SFMono-Regular,Menlo,monospace;
+   25	  --font-family-cursive:cursive;
+   26	  --shadow:0 22px 70px rgba(67,88,130,.11); --shadow-md:0 16px 40px rgba(67,88,130,.14);
+   27	  --shadow-lg:0 32px 100px rgba(60,82,124,.18); --shadow-focus:0 0 0 3px rgba(112,88,236,.18);
+   28	  --radius-sm:.625rem; --radius:.875rem; --radius-md:1rem; --radius-lg:1.5rem; --radius-full:999px;
+   29	  --animation-duration-fast:160ms; --animation-duration-normal:260ms; --animation-duration-slow:700ms;
+   30	  --chart-color-1:#7058ec; --chart-color-2:#4c8cff; --chart-color-3:#43cbe6; --chart-color-4:#38b994; --chart-color-5:#d69a42;
+   31	}
+   32	.dark {
+   33	  --background:#10162a; --foreground:#f4f7ff; --surface:#161e35; --surface-foreground:#f4f7ff;
+   34	  --sidebar:#141c32; --sidebar-foreground:#eef3ff; --card:rgba(27,37,62,.82); --card-foreground:#f4f7ff;
+   35	  --popup:#1a2340; --popup-foreground:#f4f7ff; --primary:#9a8cff; --primary-foreground:#11172a;
+   36	  --secondary:#222e4d; --secondary-foreground:#d9e0f2; --accent:#53dff5; --accent-foreground:#10283a;
+   37	  --muted:#202b47; --muted-foreground:#aab5cc; --border:rgba(218,228,255,.12);
+   38	  --shadow:0 22px 70px rgba(0,0,0,.24); --shadow-md:0 16px 40px rgba(0,0,0,.3); --shadow-lg:0 32px 100px rgba(0,0,0,.36);
+   39	  --info:#72a4ff; --info-hover:#83b0ff; --info-active:#5e90ee;
+   40	  --chart-color-1:#9a8cff; --chart-color-2:#72a4ff; --chart-color-3:#53dff5; --chart-color-4:#5ed8b2; --chart-color-5:#e2ae59;
+   41	}
+   42	
